@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title></title>
   </head>
   <body>
     <!-- Header -->
-    <!-- <section id="header">
+    <section id="header">
       <div class="header container">
         <div class="nav-bar">
           <div class="brand">
@@ -17,16 +18,16 @@
           <div class="nav-list">
             <div class="hamburger"><div class="bar"></div></div>
             <ul>
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services" data-after="Services">Services</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- End Header -->
 
     <!-- Hero Section -->
@@ -56,15 +57,15 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Amet dolorum architecto magnam esse fuga, quas?</p>
           </div><div class="service-item">
             <div class="icon"><img src="./img/icons/services.png"></div>
-            <h2>Web Design</h2>
+            <h2>UI&UX</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Amet dolorum architecto magnam esse fuga, quas?</p>
           </div><div class="service-item">
             <div class="icon"><img src="./img/icons/services.png"></div>
-            <h2>Web Design</h2>
+            <h2>React Web</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Amet dolorum architecto magnam esse fuga, quas?</p>
           </div><div class="service-item">
             <div class="icon"><img src="./img/icons/services.png"></div>
-            <h2>Web Design</h2>
+            <h2>Design</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Amet dolorum architecto magnam esse fuga, quas?</p>
           </div>
         </div>
@@ -91,7 +92,7 @@
           </div><div class="project-item">
             <div class="project-info">
               <h1>Project 2</h1>
-              <h2>Coding is Love</h2>
+              <h2>Todo list</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eaque perferendis voluptate repellat doloremque pariatur cupiditate aliquam quaerat officia nihil.</p>
             </div>
             <div class="project-img">
@@ -100,16 +101,16 @@
           </div><div class="project-item">
             <div class="project-info">
               <h1>Project 3</h1>
-              <h2>Coding is Love</h2>
+              <h2>Justa Tee</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eaque perferendis voluptate repellat doloremque pariatur cupiditate aliquam quaerat officia nihil.</p>
             </div>
             <div class="project-img">
-              <img src="./img/img-1.png" alt="project1">
+              <img src="./img/Projects/JustaTee.PNG" alt="project1">
             </div>
           </div><div class="project-item">
             <div class="project-info">
               <h1>Project 4</h1>
-              <h2>Coding is Love</h2>
+              <h2>Single page</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eaque perferendis voluptate repellat doloremque pariatur cupiditate aliquam quaerat officia nihil.</p>
             </div>
             <div class="project-img">
@@ -132,16 +133,67 @@
         <div class="col-right">
           <h1 class="section-title">About<span>me</span></h1>
           <h2>Front End Developer</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolores! Hic asperiores dolores, harum! Adipisci veritatis vero, possimus ipsum officia! Illo culpa illum ut eum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure magni, numquam sed ratione iusto atque ab commodi sint eaque officia consequuntur natus odit tempore eligendi, eius ducimus. Dicta, rerum minus corrupti numquam animi iure accusantium quia facilis repudiandae nostrum explicabo veniam dolorem quo saepe ad deleniti voluptatem debitis autem laboriosam.</p>
           <a href="#" class="cta">Download Resume</a>
         </div>
       </div>
     </section>
     <!-- End About Section -->
 
-    
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div class="contact_title"><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="./img/icons/contact_phone.png" alt="phonenumber"></div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+84 999 999 999</h2>
+              <h2>+84 999 999 999</h2>
+            </div>
+          </div><div class="contact-item">
+            <div class="icon"><img src="./img/icons/contact_email.png" alt="Email"></div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>infokodeinejt@gmail.com</h2>
+              <h2>infokodeinejt@gmail.com</h2>
+            </div>
+          </div><div class="contact-item">
+            <div class="icon"><img src="./img/icons/contact_address.png" alt="Address"></div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Ha Noi, Viet Nam</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
 
-
-
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand"><h1><span>K</span>odeine </h1></div>
+        <h2>Your complete web solution</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="#"><img src="./img/icons/facebook.png" alt=""></a>
+          </div>
+          <div class="social-item">
+            <a href="#"><img src="./img/icons/twitter_circled.png" alt=""></a>
+          </div>
+          <div class="social-item">
+            <a href="#"><img src="./img/icons/instagram.png" alt=""></a>
+          </div>
+          <div class="social-item">
+            <a href="#"><img src="./img/icons/behance.png" alt=""></a>
+          </div>
+        </div>
+        <p>Copyright © 2020 Kodeine. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer Section -->
+    <script src="./index.js"></script>
   </body>
 </html>
